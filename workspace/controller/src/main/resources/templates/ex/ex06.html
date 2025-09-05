@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EX06</title>
+    <link rel="stylesheet" href="/css/ex06.css">
+</head>
+<body>
+<span>학생이름은<span th:text="${student.name}">123124</span></span>
+<span>영어점수=<span th:text="${student.englishScore}"></span></span>
+<span>국어점수=<span th:text="${student.koreanScore}"></span></span>
+<span>수학점수=<span th:text="${student.mathScore}"></span></span>
+<span>평균점수는<span th:text="${student.averageScore}"></span></span>
+
+</body>
+</html>
